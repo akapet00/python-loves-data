@@ -1,0 +1,10 @@
+MATLAB DATA IN PYTHON
+- industry standard in engineering and science in general
+- data saves as .mat files [https://www.mathworks.com/help/matlab/import_export/supported-file-formats.html]
+- read/write .mat files in Python is enabled through SciPy library [https://docs.scipy.org/doc/scipy/reference/tutorial/io.html]
+	- File IO (scipy.io)
+	- funcs:
+		loadmat(file_name[, mdict, appendmat])		Load MATLAB file.
+		savemat(file_name, mdict[, appendmat, …])	Save a dictionary of names and arrays into a MATLAB-style .mat file.
+		whosmat(file_name[, appendmat])			List variables inside a MATLAB file.
+
