@@ -1,3 +1,0 @@
-HTTP w3c pages - https://www.w3.org/Protocols/HTTP/1.1/rfc2616.pdf
-HTTP, Wikipedia - https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
-importing data from HTTP (requests, responeses), DataCamp - https://www.datacamp.com/courses/importing-data-in-python-part-2

@@ -1,5 +1,0 @@
-JSON, wikipedia - https://en.wikipedia.org/wiki/JSON
-JSON, official documentation - https://www.json.org/
-JSON JS, w3schools - https://www.w3schools.com/js/js_json_intro.asp
-JSON in Python, w3schools - https://www.w3schools.com/python/python_json.asp
-importing data from JSON, DataCamp -https://www.datacamp.com/courses/importing-data-in-python-part-2
