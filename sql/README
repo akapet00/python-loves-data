@@ -1,0 +1,15 @@
+SQLite <3 Python
+- what is SQLite? [https://www.sqlite.org/index.html]
+- it comes pre-installed on Ubuntu 18.04.1 LTS bionic
+	[in]	> sqlite3
+	[out]	SQLite version 3.24.0 2018-06-04 19:24:41
+		Enter ".help" for usage hints.
+		Connected to a transient in-memory database.
+		Use ".open FILENAME" to reopen on a persistent database.
+  if there is no output proceed with installation process [http://www.tutorialspoint.com/sqlite/sqlite_installation.htm]
+- SQLAlchemy [https://www.sqlalchemy.org/]
+	- library for relational-model database manipulation through Python
+		- Core (Realtional Model focused)
+		- ORM (User Data Model focused)
+
+
