@@ -1,0 +1,39 @@
+# sample yaml document for data manipulation in Python
+
+person:
+  name: &name'Ante' # & naming the anchor
+  lastname: 'Lojic Kapetanovic'
+  gender: 'male' # there are only 2 genders
+  birthday: 1995-26-11 08:05:32
+  age: 23
+  occupation: 'student'
+  gpa: !!str 4.68 # will be rendered as string
+  height: 1.94e+2
+  hobbies:
+    - cooking
+    - dancing
+    - driving
+  flaws: null
+  fav_movies: ['Gladiator', 'Good Will Hunting', 'Dark Knight']
+  music:
+    - name: 'Pink Floyd'
+      oldschool: True
+    - {name: 'Tame Impala', oldschool: False}
+  description: > # with > sign it will be rendered in a single line
+    Lorem ipsum dolor sit amet, error legimus eleifend eu ius.
+    Te nibh lobortis accommodare pro, an salutandi reprimique duo.
+    Error audire invenire vim an, prima aeque elaboraret ut qui.
+    Qui ei nemore laboramus sadipscing, at ridens oblique sensibus
+    mea, audire sententiae persequeris pro ne. Audiam commune ea
+    vis, quo eruditi petentium cu.
+  signature: | # preserving formatting of the text
+    antelk
+    FESB
+    email - aantelk@gmail.com
+  id: *name # accessing the &name anchor, in this case: antelk
+  base: &base
+    var1: 1
+    var2: 2
+    var3: 3
+  foo:
+    <<: *base # will be rendered as var1: value1

@@ -1,0 +1,3 @@
+items:
+  already-have: !!set {knife: null, waterbottle: null}
+  need-to-buy: {axe: 150, boots: 40, sward: 100}

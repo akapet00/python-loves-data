@@ -1,0 +1,11 @@
+YAML ('YAML Ain't Markup Language') w/ Python
+- source: https://en.wikipedia.org/wiki/YAML
+- not 'Yet Another Markup Language' - to distinguish its purpose as data-oriented, rather than document markup
+- human-readable data serialization language
+- configuring stuff
+- very much like XML but minimalistic (syntax-wise)
+
+- PyYAML is a YAML parser and emitter for Python [https://pyyaml.org/wiki/PyYAMLDocumentation]
+	- completely Python 3+ compatible 
+	- preinstalled w/ Anaconda3 (if not >pip install pyyaml ; or from the source)
+	- import library: >import yaml
